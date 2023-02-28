@@ -1,0 +1,231 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: OpenSans,sans-serif;
+    background-color: #fff;
+}
+a {
+    cursor: pointer
+}
+a, a:hover {
+    text-decoration: none;
+}
+.clearfloat:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+p {
+    font-size: 14px;
+    color: #a5a5a6
+}
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    min-width: 740px;
+    background: #6f6f6f;
+   }
+nav {
+    background-attachment: fixed;
+    background-color: #000;
+}
+.nav-flex {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+flex-basis: 42%;
+align-items: center;
+}
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis: 42%;
+}
+.navigation a {
+    font-size: 14px;
+    line-height: 55px;
+    color: #6f6f6f;
+    border-bottom: 4px solid #000;
+}
+.navigation a:hover {
+    color: #ff8b38;
+    border-bottom: 4px solid #000;
+}
+.header-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.logo{
+    margin-top: 100px;
+    flex-basis: 42%;
+}
+h1 {
+    margin: 0;
+    padding-top: 100px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #3a3939;
+    text-transform: uppercase;
+}
+.header-flex h1 {
+    padding-top: 0;
+    color: #eeeded;
+}
+.line-grey {
+    width: 70px;
+    height: 2px;
+    margin: 30px; 
+    
+}
+.logo span {
+    font-size: 14px;
+    color: #aaa4a4;
+}
+.check-in {
+    width: 300px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+input, textarea {
+    display: block;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto 2px;
+    border: none;
+    border-bottom: 1px solid #ccc9c9;
+}
+.your-account {
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+    
+.your-account span {
+    color: #ff9b51;
+}
+.get-started {
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffd5b7;
+    background-color: #ff8b38;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+}
+.get-started:hover {
+    background-color: #eb6200;
+}
+input, textarea {
+    font-size: 16px;
+}
+input::-webkit-input-placeholder {
+    color: #fa5353;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+input::-moz-placeholder {
+    color: #fa5353;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+input:-ms-input-placeholder {
+    color: #fa5353;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+input::-webkit-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+input::-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+input:-ms-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+input:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+input:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+input:focus, textarea:focus {
+    outline: 0;
+    border-bottom: 1px solid #ff8b38;
+    -webkit-box-shadow: 0 2px 0 #ff8b38;
+    box-shadow: 0 2px 0 #ff8b38;
+}
+.btn-download {
+    display: block;
+    margin-top: 40px;
+    background: none;
+    border: 2px solid #b4b3b4;
+    cursor: pointer;
+    font-family: 'Nexa Bold', sans-serif;
+    font-size: 18px;
+    padding: 10px 25px;
+    color: #fff;
+    }
+.btn-download:hover {
+    background-color: #ff8b38;
+    color: #000;
+    border: 2px solid #ff8b38;
+}
+.social-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media i {
+    cursor: pointer;
+}
+h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-social-media h2 {
+    color: #525151;
+}
+.main-content-font {
+    color: #a5a5a6;
+    font-size: 14px;
+}
+.about-social-media {
+    flex-basis: 42%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(//fonts/OpenSans.ttf);
+}
